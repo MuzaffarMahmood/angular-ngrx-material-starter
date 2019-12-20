@@ -25,6 +25,11 @@ import { MatSliderModule } from '@angular/material/';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material';
 
+import { CdkTableModule } from '@angular/cdk/table';
+import { MatTableModule } from '@angular/material/table';
+import { MatSortModule } from '@angular/material/sort';
+import { MatPaginatorModule } from '@angular/material/paginator';
+
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
@@ -120,6 +125,11 @@ import { RtlSupportDirective } from './rtl-support/rtl-support.directive';
     MatSlideToggleModule,
     MatDividerModule,
 
+    CdkTableModule,
+    MatTableModule,
+    MatSortModule,
+    MatPaginatorModule,
+
     FontAwesomeModule
   ],
   declarations: [
@@ -154,6 +164,11 @@ import { RtlSupportDirective } from './rtl-support/rtl-support.directive';
     MatSliderModule,
     MatDatepickerModule,
     MatNativeDateModule,
+
+    CdkTableModule,
+    MatTableModule,
+    MatSortModule,
+    MatPaginatorModule,
 
     FontAwesomeModule,
 
