@@ -5,9 +5,11 @@ import { NgModule } from '@angular/core';
 import { SharedModule } from './shared/shared.module';
 import { CoreModule } from './core/core.module';
 
+import { RecordModule } from './record/record.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app/app.component';
 import { ListComponent } from './list/list.component';
+// import { RecordComponent } from './record/record.component';
 
 @NgModule({
   imports: [
@@ -20,6 +22,7 @@ import { ListComponent } from './list/list.component';
     SharedModule,
 
     // app
+    RecordModule,
     AppRoutingModule
   ],
   declarations: [AppComponent, ListComponent],
